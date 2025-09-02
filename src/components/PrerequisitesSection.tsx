@@ -14,7 +14,7 @@ import {
 
 export default function PrerequisitesSection() {
   return (
-    <section className="flex flex-col text-center gap-14">
+    <section className="flex flex-col text-center gap-14 pb-56">
       <h2 className="poppins-bold text-primary text-6xl">Prerequisites</h2>
       <div className="flex flex-row flex-wrap gap-y-10">
         <SiHtml5 color="default" size={72} className="flex-1 basis-1/5"/>
