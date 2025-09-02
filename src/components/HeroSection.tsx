@@ -2,7 +2,7 @@ import { SiReact } from "@icons-pack/react-simple-icons";
 
 export default function HeroSection() {
   return (
-    <section className="text-center flex flex-col gap-10 items-center">
+    <section className="text-center flex flex-col gap-10 items-center pt-20 h-screen">
       <SiReact color='default' size={256}/>
 
       <span className="flex flex-col gap-3">
@@ -14,7 +14,7 @@ export default function HeroSection() {
 
       <div className="flex flex-row gap-5">
         <button className="bg-primary text-white p-3 poppins-medium rounded-md">Let's get started</button>
-        <button className="text-black p-3 poppins-medium rounded-md border-2 border-black">Documentation</button>
+        <button className="text-black p-3 poppins-medium rounded-md border-1 border-black">Documentation</button>
       </div>
     </section>
   );

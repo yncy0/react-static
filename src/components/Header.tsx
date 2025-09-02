@@ -26,12 +26,14 @@ export default function Header() {
   ];
 
   return (
-    <header className="flex flex-row w-screen justify-between items-center top-0 left-0 fixed py-10 px-64">
-      <SiReact color='default' size={48}/>
+    <header className="flex flex-row w-screen justify-between items-center top-0 left-0 sticky py-7 px-64 bg-white">
+      <SiReact color="default" size={48} />
       <nav>
         <ul className="flex flex-row gap-5">
           {items.map((item) => (
-            <li className="text-black poppins-regular">{item.name}</li>
+            <li className="text-black poppins-regular">
+              <a href={item.link}>{item.name}</a>
+            </li>
           ))}
         </ul>
       </nav>
