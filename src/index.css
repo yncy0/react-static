@@ -3,18 +3,35 @@
 @import "tailwindcss";
 
 :root {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-primary: #61DAFB;
+  
+  --color-html-logo: #E34F26;
+  --color-css-logo: #663399;
+  --color-js-logo: #F7DF1E;
+  --color-tailwind-logo: #06B6D4;
+  --color-node-logo: #5FA04E;
+  --color-npm-logo: #CB3837;
+  --color-vite-logo: #646CFF;
+  --color-git-logo: #F05032;
+  --color-github-logo: #181717;
+  --color-terminal-logo: #241F31;
+  --color-ts-logo: #3178C6;
 }
 
 body {
