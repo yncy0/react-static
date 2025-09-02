@@ -26,7 +26,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="flex flex-row w-screen justify-between items-center top-0 left-0 sticky py-7 px-64 bg-white">
+    <header className="flex flex-row w-screen justify-between items-center top-0 left-0 sticky py-7 px-64 bg-white drop-shadow-lg drop-shadow-primary/50">
       <SiReact color="default" size={48} />
       <nav>
         <ul className="flex flex-row gap-5">
